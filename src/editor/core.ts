@@ -1,120 +1,150 @@
-// feat: AI image editor core - implementation line 1 - b27698aa8650eb21
-// feat: AI image editor core - implementation line 2 - 2857d8039df0d54d
-// feat: AI image editor core - implementation line 3 - a4b4a4be8644fac0
-// feat: AI image editor core - implementation line 4 - 0c6899085651eeae
-// feat: AI image editor core - implementation line 5 - 128896829ce27b88
-// feat: AI image editor core - implementation line 6 - e89900a8c089da41
-// feat: AI image editor core - implementation line 7 - d1893bd305cf053c
-// feat: AI image editor core - implementation line 8 - 6255c61c4fe3dc6c
-// feat: AI image editor core - implementation line 9 - d33afa8b4791ca0c
-// feat: AI image editor core - implementation line 10 - 53871dc513cbaa0e
-// feat: AI image editor core - implementation line 11 - 851c86d38f0cbe40
-// feat: AI image editor core - implementation line 12 - e0d115a9cfaa974d
-// feat: AI image editor core - implementation line 13 - 62618036341cc9f5
-// feat: AI image editor core - implementation line 14 - 32af881519782397
-// feat: AI image editor core - implementation line 15 - de8a7d18656bbd05
-// feat: AI image editor core - implementation line 16 - cfe8651dd87a4b1d
-// feat: AI image editor core - implementation line 17 - 0ef5c80bbbbdbeb6
-// feat: AI image editor core - implementation line 18 - ab4513cd417a2ff9
-// feat: AI image editor core - implementation line 19 - 6bb7d1a437c8461d
-// feat: AI image editor core - implementation line 20 - ff435cd56d5219e0
-// feat: AI image editor core - implementation line 21 - dd8b4c2a65002f2a
-// feat: AI image editor core - implementation line 22 - 27f928cdef0182c8
-// feat: AI image editor core - implementation line 23 - 8333bd965b7d4675
-// feat: AI image editor core - implementation line 24 - 7371029bfa796c4d
-// feat: AI image editor core - implementation line 25 - b30d98aec4ea029d
-// feat: AI image editor core - implementation line 26 - f8d08afe5e7e7176
-// feat: AI image editor core - implementation line 27 - fb3d3ada800c0e60
-// feat: AI image editor core - implementation line 28 - 7085727c6e9d763b
-// feat: AI image editor core - implementation line 29 - a3b2d6312a35dfd0
-// feat: AI image editor core - implementation line 30 - 5197b78538f32e09
-// feat: AI image editor core - implementation line 31 - fc357e7cdc589db0
-// feat: AI image editor core - implementation line 32 - 074185fb29479c9d
-// feat: AI image editor core - implementation line 33 - 814c6d257354cf76
-// feat: AI image editor core - implementation line 34 - 983664a018483043
-// feat: AI image editor core - implementation line 35 - e3eef51b8f50ab13
-// feat: AI image editor core - implementation line 36 - 5bf1c20decabc8c1
-// feat: AI image editor core - implementation line 37 - 529b756726033942
-// feat: AI image editor core - implementation line 38 - 92aa530a25730a0d
-// feat: AI image editor core - implementation line 39 - 12d82b163a13ab00
-// feat: AI image editor core - implementation line 40 - 210076f12828c07a
-// feat: AI image editor core - implementation line 41 - 07ab9731ad00a5f1
-// feat: AI image editor core - implementation line 42 - 27afebba918bb474
-// feat: AI image editor core - implementation line 43 - 538b43e728d174e6
-// feat: AI image editor core - implementation line 44 - 8f7dd3f95647edab
-// feat: AI image editor core - implementation line 45 - efa40f85e2744202
-// feat: AI image editor core - implementation line 46 - b1c3a26da6e29a60
-// feat: AI image editor core - implementation line 47 - ebae055d7636f582
-// feat: AI image editor core - implementation line 48 - 86d655b924c91b07
-// feat: AI image editor core - implementation line 49 - 087b7d4a54b048fa
-// feat: AI image editor core - implementation line 50 - 1db297ff05c6f2c7
-// feat: AI image editor core - implementation line 51 - 3782983c108ba3e2
-// feat: AI image editor core - implementation line 52 - 9dff048ae6ca3a33
-// feat: AI image editor core - implementation line 53 - 61af6b75da9e4705
-// feat: AI image editor core - implementation line 54 - 35a78815d20e3452
-// feat: AI image editor core - implementation line 55 - f7dc15da37285cb7
-// feat: AI image editor core - implementation line 56 - 1656dba760fc9305
-// feat: AI image editor core - implementation line 57 - c5737ab54db5d30d
-// feat: AI image editor core - implementation line 58 - 9901b044f97aeec6
-// feat: AI image editor core - implementation line 59 - 5825896d52abe0af
-// feat: AI image editor core - implementation line 60 - b20d61620f5fdd59
-// feat: AI image editor core - implementation line 61 - 0e7c46a5dafed5c8
-// feat: AI image editor core - implementation line 62 - 377606ee51a893d6
-// feat: AI image editor core - implementation line 63 - 529d458c52fbcc05
-// feat: AI image editor core - implementation line 64 - 30f0220d25bd1bb8
-// feat: AI image editor core - implementation line 65 - ec7cfa838a717e7f
-// feat: AI image editor core - implementation line 66 - 1ee1fb8f82de8036
-// feat: AI image editor core - implementation line 67 - 482f626f3fe3f669
-// feat: AI image editor core - implementation line 68 - 9a64734af8ea4580
-// feat: AI image editor core - implementation line 69 - 423adf51b162bf3f
-// feat: AI image editor core - implementation line 70 - dfe962c7eaeca738
-// feat: AI image editor core - implementation line 71 - d8bb8611d15b0bd1
-// feat: AI image editor core - implementation line 72 - 94e1a7fc66ce7732
-// feat: AI image editor core - implementation line 73 - 7e4c00db80a7834c
-// feat: AI image editor core - implementation line 74 - 5a4c87ecfa76d81a
-// feat: AI image editor core - implementation line 75 - a6f5b7d257f6e2e0
-// feat: AI image editor core - implementation line 76 - 9c16612da3a120ef
-// feat: AI image editor core - implementation line 77 - 2dcca882b00f43db
-// feat: AI image editor core - implementation line 78 - ea228767ab3754d0
-// feat: AI image editor core - implementation line 79 - f29d3ba8671664e4
-// feat: AI image editor core - implementation line 80 - 63c5dcdd546f0f9a
-// feat: AI image editor core - implementation line 81 - 32780511a93b5ceb
-// feat: AI image editor core - implementation line 82 - e4d3fcd639b2e8d0
-// feat: AI image editor core - implementation line 83 - d1086a1f1be5e1eb
-// feat: AI image editor core - implementation line 84 - 616260c48fff3448
-// feat: AI image editor core - implementation line 85 - 546c6bb856755448
-// feat: AI image editor core - implementation line 86 - 0aaf6a496460fc9e
-// feat: AI image editor core - implementation line 87 - 8f7a3e58020ede1a
-// feat: AI image editor core - implementation line 88 - 173c3f79f09d2497
-// feat: AI image editor core - implementation line 89 - 2bb7c59df38394e7
-// feat: AI image editor core - implementation line 90 - 189d79041f5f4dd2
-// feat: AI image editor core - implementation line 91 - fc08aaf196604b1a
-// feat: AI image editor core - implementation line 92 - d49835fddc4171c3
-// feat: AI image editor core - implementation line 93 - 61a5a67ffcdc8048
-// feat: AI image editor core - implementation line 94 - 43171f41c4de1035
-// feat: AI image editor core - implementation line 95 - a08f279c096f9c42
-// feat: AI image editor core - implementation line 96 - 8206ffa4d897fea6
-// feat: AI image editor core - implementation line 97 - 8821955d9612199b
-// feat: AI image editor core - implementation line 98 - cf395f5ce38cefc8
-// feat: AI image editor core - implementation line 99 - 1eaffe097ceb0990
-// feat: AI image editor core - implementation line 100 - d62504ca7086f150
-// feat: AI image editor core - implementation line 101 - 38ab0b6bf980a5ab
-// feat: AI image editor core - implementation line 102 - 576222f740a7b59a
-// feat: AI image editor core - implementation line 103 - d5822482b66f6f8a
-// feat: AI image editor core - implementation line 104 - 8a4d688ca26b32bb
-// feat: AI image editor core - implementation line 105 - 138e04ed08b80055
-// feat: AI image editor core - implementation line 106 - c80899b359aa72f1
-// feat: AI image editor core - implementation line 107 - 215daeb817205629
-// feat: AI image editor core - implementation line 108 - 60565a32ba60faa5
-// feat: AI image editor core - implementation line 109 - 7eeda3287c3172a3
-// feat: AI image editor core - implementation line 110 - 066dddbb095110e4
-// feat: AI image editor core - implementation line 111 - 33c379bcac534033
-// feat: AI image editor core - implementation line 112 - 5c7cc8f033ff3a4a
-// feat: AI image editor core - implementation line 113 - 59724654424f4c6b
-// feat: AI image editor core - implementation line 114 - 57a6bbc5509b961f
-// feat: AI image editor core - implementation line 115 - b0b27166fbb21615
-// feat: AI image editor core - implementation line 116 - e40d299932ede660
-// feat: AI image editor core - implementation line 117 - 047d0d9df808a610
-// feat: AI image editor core - implementation line 118 - 95a59e107683e36a
-// feat: AI image editor core - implementation line 119 - d09b0b1dec8328e4
-// feat: AI image editor core - implementation line 120 - 3058d6f7080a42ef
+// refactor: editor architecture - refactored line 1 - b6aadabb6963e54814629e38
+// refactor: editor architecture - refactored line 2 - 1a173d1dcf45006a2d9890c0
+// refactor: editor architecture - refactored line 3 - 766355d3b2beeaba66c04778
+// refactor: editor architecture - refactored line 4 - 02669ae343f4b26e55988dd4
+// refactor: editor architecture - refactored line 5 - 9dc9abfaac19e9976868b1a0
+// refactor: editor architecture - refactored line 6 - 7b2b3ea0009fdcb39386c4cc
+// refactor: editor architecture - refactored line 7 - 70e6fafd039900aa7815cc47
+// refactor: editor architecture - refactored line 8 - 7ffe502ca6db566f40fff172
+// refactor: editor architecture - refactored line 9 - 9c31045d90fdd27ebcda0a54
+// refactor: editor architecture - refactored line 10 - 7d7de9c57145aa783a7da643
+// refactor: editor architecture - refactored line 11 - b7a13da99c7150b88be77109
+// refactor: editor architecture - refactored line 12 - ce79309ac30b26b7dc7f66aa
+// refactor: editor architecture - refactored line 13 - e69b59cbd443e8a359b24d88
+// refactor: editor architecture - refactored line 14 - 9a15ba56c3a86f35a3579c92
+// refactor: editor architecture - refactored line 15 - 5a935e0fda27ff87b5d92ea3
+// refactor: editor architecture - refactored line 16 - 193721e05d394b799caba389
+// refactor: editor architecture - refactored line 17 - 5903cccc02f79001bcae8c3e
+// refactor: editor architecture - refactored line 18 - 411229bb5b8764018251435d
+// refactor: editor architecture - refactored line 19 - 3c43ac9ee0e59ca5bba4def3
+// refactor: editor architecture - refactored line 20 - e51ea27a75e256e08bf8901e
+// refactor: editor architecture - refactored line 21 - 55e676354da6f13e134a4872
+// refactor: editor architecture - refactored line 22 - f1d6cc2eecccee3df991008a
+// refactor: editor architecture - refactored line 23 - 23056ae28b2352591282e1cb
+// refactor: editor architecture - refactored line 24 - 236c554243a3dd28496c3560
+// refactor: editor architecture - refactored line 25 - 355a7aeb0c65f5795fc02d1a
+// refactor: editor architecture - refactored line 26 - aa6043a827a6bcdba2205f95
+// refactor: editor architecture - refactored line 27 - 41d2ee0e2298296f9e60bc63
+// refactor: editor architecture - refactored line 28 - c68bddffe2c6ef529d7a5803
+// refactor: editor architecture - refactored line 29 - ff89ffcb530abc68ddcb6e54
+// refactor: editor architecture - refactored line 30 - 91094b67af2c2f66a503411f
+// refactor: editor architecture - refactored line 31 - 5737d64a9c319b689d3f798b
+// refactor: editor architecture - refactored line 32 - 1bd21c07eb50ccfa95c42382
+// refactor: editor architecture - refactored line 33 - 000adc066d0b40ea96a76ff0
+// refactor: editor architecture - refactored line 34 - d4bef9e045253113fe2c3b9f
+// refactor: editor architecture - refactored line 35 - d786b457a5e86565dfb5f25e
+// refactor: editor architecture - refactored line 36 - 5b97ef090dc59d6215471546
+// refactor: editor architecture - refactored line 37 - 804c7a53382a43eaf0d9e0eb
+// refactor: editor architecture - refactored line 38 - 693a3c814fccb4ab757fc456
+// refactor: editor architecture - refactored line 39 - 8fc80a2e3c225365eb33f09c
+// refactor: editor architecture - refactored line 40 - 0abe285103f7288634017c86
+// refactor: editor architecture - refactored line 41 - ff2a124b749cb3d11bbd679d
+// refactor: editor architecture - refactored line 42 - 8b625843f87cb654bfeae976
+// refactor: editor architecture - refactored line 43 - 1ccad1d3e9b9f560b2529386
+// refactor: editor architecture - refactored line 44 - 53d7cf13cdd713c1ad576deb
+// refactor: editor architecture - refactored line 45 - 16f6d86d07a65a9cd768b8f7
+// refactor: editor architecture - refactored line 46 - ef07ea3ab02ae99c694d7af2
+// refactor: editor architecture - refactored line 47 - 33ec9c3a3c9c5698fbaff588
+// refactor: editor architecture - refactored line 48 - da45f11d67877165fe15cdc2
+// refactor: editor architecture - refactored line 49 - d50581a84f676d0edd16a792
+// refactor: editor architecture - refactored line 50 - b327f10e67a7460d025b03b6
+// refactor: editor architecture - refactored line 51 - f2c4e102bb70d33477308aaa
+// refactor: editor architecture - refactored line 52 - ed5960077cc22de59b328dda
+// refactor: editor architecture - refactored line 53 - 52963bd54f8903210d866a49
+// refactor: editor architecture - refactored line 54 - d9d3777371d5c7a547251a01
+// refactor: editor architecture - refactored line 55 - 61390a54fc25a36985fb057f
+// refactor: editor architecture - refactored line 56 - bf15491f1029c51b779a0f5f
+// refactor: editor architecture - refactored line 57 - b3df76acc82d3c38c88df9cc
+// refactor: editor architecture - refactored line 58 - da46c0a43192c1b00d6226f2
+// refactor: editor architecture - refactored line 59 - 221ccdf892b0c6e2ca955538
+// refactor: editor architecture - refactored line 60 - b79c81dcfa97ec9251c0da3b
+// refactor: editor architecture - refactored line 61 - 1ac7cf1dd9691094c8645b54
+// refactor: editor architecture - refactored line 62 - 272c10b4022da08bb20d3e07
+// refactor: editor architecture - refactored line 63 - dec777974556117e3ae9ee1d
+// refactor: editor architecture - refactored line 64 - f41401bd268b1510129e0fa9
+// refactor: editor architecture - refactored line 65 - 03460ebb77c38ffe07a5e7dc
+// refactor: editor architecture - refactored line 66 - fcb91fc5c2dd8bab5b3555df
+// refactor: editor architecture - refactored line 67 - 15dc0d22cffa5c9353b47706
+// refactor: editor architecture - refactored line 68 - c4167fe5cd01443fd6afe0ce
+// refactor: editor architecture - refactored line 69 - 1711ebb52b61138a6f929b95
+// refactor: editor architecture - refactored line 70 - 9ac02d26adb2be62cf27911e
+// refactor: editor architecture - refactored line 71 - 3e5a7a5ed7570b2827edd618
+// refactor: editor architecture - refactored line 72 - c9bb606b5d0da13e380fd890
+// refactor: editor architecture - refactored line 73 - d62c485ac4efb5e76231a2b7
+// refactor: editor architecture - refactored line 74 - 1724c2a8f669cb04d381a1dd
+// refactor: editor architecture - refactored line 75 - c478bfeb33c9679756019e02
+// refactor: editor architecture - refactored line 76 - 04205999e78d29212fc7f67c
+// refactor: editor architecture - refactored line 77 - 868fc9160e14c9c04b109551
+// refactor: editor architecture - refactored line 78 - 6f16b10d1023e2afe90dac22
+// refactor: editor architecture - refactored line 79 - 353f9e93d53d24325c9725f6
+// refactor: editor architecture - refactored line 80 - e13871a1409256f06958a611
+// refactor: editor architecture - refactored line 81 - 7a7792bb46f3f5e15ec28c13
+// refactor: editor architecture - refactored line 82 - d501c51bedaef7b6d8687458
+// refactor: editor architecture - refactored line 83 - 93de3deca9d7261a4c32274e
+// refactor: editor architecture - refactored line 84 - 6f63d7cfbac89e2e7763bf8a
+// refactor: editor architecture - refactored line 85 - 73064a3702b3a5028d4ed876
+// refactor: editor architecture - refactored line 86 - 1a8748e2c21eeaff2b5e5938
+// refactor: editor architecture - refactored line 87 - d3bbc9d54fd686268915a6f9
+// refactor: editor architecture - refactored line 88 - a65aef192111033834c7e170
+// refactor: editor architecture - refactored line 89 - 9a29ce9b0a49e74dd51c0ca2
+// refactor: editor architecture - refactored line 90 - 97f61d3c84c81404d2127fb5
+// refactor: editor architecture - refactored line 91 - 6d80f49e3b7f85bb7fb8ae39
+// refactor: editor architecture - refactored line 92 - f81e446d3d78c13551b8539c
+// refactor: editor architecture - refactored line 93 - 73ba7d7b17e58f164bf4328d
+// refactor: editor architecture - refactored line 94 - 7e56a1ff24b7d022e6a2c9da
+// refactor: editor architecture - refactored line 95 - e7f1d63cfa05ed35c6674757
+// refactor: editor architecture - refactored line 96 - b6b81b133ad5ef7300a258c1
+// refactor: editor architecture - refactored line 97 - c5d1514b418c6a25047f202a
+// refactor: editor architecture - refactored line 98 - 0452fda172cb01605ecda97e
+// refactor: editor architecture - refactored line 99 - 3a49f7ca634b136dc6158f80
+// refactor: editor architecture - refactored line 100 - 73e49e2b975cf5b5b2e109f0
+// refactor: editor architecture - refactored line 101 - 76712724414bbb5ac95d6df9
+// refactor: editor architecture - refactored line 102 - a2366f01185268ca399bbfd9
+// refactor: editor architecture - refactored line 103 - 74d5755d56cb5c7a5e247c1e
+// refactor: editor architecture - refactored line 104 - a35f671cbe83f6fed0ab543a
+// refactor: editor architecture - refactored line 105 - 7660cc63993c8e32eff5417d
+// refactor: editor architecture - refactored line 106 - e940770ccbed49bbf285f2da
+// refactor: editor architecture - refactored line 107 - 9970efb620498ee748f95f40
+// refactor: editor architecture - refactored line 108 - 2dcfc6d290bc52fa38c2cc42
+// refactor: editor architecture - refactored line 109 - 47b453da702f2493104a3f0c
+// refactor: editor architecture - refactored line 110 - fc54cfc7b22d6ae9d73764ee
+// refactor: editor architecture - refactored line 111 - b762477c9519ad941d79056e
+// refactor: editor architecture - refactored line 112 - 40a890bf10805abb029da00b
+// refactor: editor architecture - refactored line 113 - 63606f01b3b7bdcac26eac33
+// refactor: editor architecture - refactored line 114 - d9366e6eba246d3fcc79943c
+// refactor: editor architecture - refactored line 115 - b629333c76eff650f9c674f2
+// refactor: editor architecture - refactored line 116 - 72301a91e1d54f076f5958a4
+// refactor: editor architecture - refactored line 117 - d8478574b1fd1c41e829ed6c
+// refactor: editor architecture - refactored line 118 - f71315fb9fe3fd0323248773
+// refactor: editor architecture - refactored line 119 - 5cfaa3b30fc327cf109d394b
+// refactor: editor architecture - refactored line 120 - 92e0ea51b5bedb312a992288
+// refactor: editor architecture - refactored line 121 - 8121f032ddc7581c7e6e69ec
+// refactor: editor architecture - refactored line 122 - de98cedb98d65720f2c6f3ce
+// refactor: editor architecture - refactored line 123 - 057cef44ca5d2c07695296a2
+// refactor: editor architecture - refactored line 124 - 6f3d73e6d95554acf4772afd
+// refactor: editor architecture - refactored line 125 - b918e8a80fcd437b16594d07
+// refactor: editor architecture - refactored line 126 - 0ded72fae30a5e4336e5bb13
+// refactor: editor architecture - refactored line 127 - 1b606ba9abb16b51fe8268af
+// refactor: editor architecture - refactored line 128 - d00913fefe0cf1b6fc7b5d7d
+// refactor: editor architecture - refactored line 129 - de1729ab0226c1a142aae261
+// refactor: editor architecture - refactored line 130 - 51b26812f269f52a267b865d
+// refactor: editor architecture - refactored line 131 - cfb519d4175011d6d22b25d9
+// refactor: editor architecture - refactored line 132 - 068741a4beafa076a78e2810
+// refactor: editor architecture - refactored line 133 - fdb8e6242b6fd43c64cc879a
+// refactor: editor architecture - refactored line 134 - eebeadcb1e69b08a0e63e6cd
+// refactor: editor architecture - refactored line 135 - 6a19156722440b093136303d
+// refactor: editor architecture - refactored line 136 - b38d7da82f4dc6c22c6791a4
+// refactor: editor architecture - refactored line 137 - 413ab05fa63460d2020b1e98
+// refactor: editor architecture - refactored line 138 - e442c66b36c732ed6ac76bbd
+// refactor: editor architecture - refactored line 139 - c9a0604d22f3c9c6c6d656db
+// refactor: editor architecture - refactored line 140 - 3e4b6e02e84593487b5412e0
+// refactor: editor architecture - refactored line 141 - 4acb21057db86612e56fe550
+// refactor: editor architecture - refactored line 142 - 6bb382378f926142e6f0b6ec
+// refactor: editor architecture - refactored line 143 - 50bedd31e0381e868c6987c5
+// refactor: editor architecture - refactored line 144 - 077572c94d2cc6f34c8506a7
+// refactor: editor architecture - refactored line 145 - 2974788a433d0fd3e66f8512
+// refactor: editor architecture - refactored line 146 - 5c8f88abdfdd04a36732d89e
+// refactor: editor architecture - refactored line 147 - e599bb686958f84712b5221f
+// refactor: editor architecture - refactored line 148 - 3ce2ffaa68f942ab8155fd69
+// refactor: editor architecture - refactored line 149 - 92a2b2760c7897539bdd791e
+// refactor: editor architecture - refactored line 150 - e81799a209efec6d9a8e4b69
