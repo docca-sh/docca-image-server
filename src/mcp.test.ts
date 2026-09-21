@@ -141,17 +141,11 @@ describe('mcp.ts', () => {
             expect(result.content[0].text).toContain('http://localhost:9000/test-bucket/public/');
         });
 
-        it('should handle empty data array gracefully', async () => {
-            // Note: Current code has a bug - accessing [0].b64_json on empty array throws
-            // This test documents actual behavior; code should use optional chaining
-            vi.mocked(openai.images.edit).mockResolvedValue({
-                data: [],
-            } as any);
-
+        it.each([{ data: [] }, {}, { data: [{}] }])('handles a missing image without uploading: %j', async (response) => {
+            vi.mocked(openai.images.edit).mockResolvedValue(response as any);
             const result = await toolHandlers['create_meme']({ input: 'funny cat meme' }, {});
-
-            // Actual behavior: throws error due to missing optional chaining
-            expect(result.content[0].text).toContain('Error message:');
+            expect(result.content[0].text).toBe('No image generated');
+            expect(uploadToS3).not.toHaveBeenCalled();
         });
 
         it('should return error message when b64_json is missing', async () => {

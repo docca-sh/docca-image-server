@@ -61,7 +61,7 @@ export const createMcp = () => {
         });
         const generationTime = Date.now() - generationStartTime;
         console.log(`Image generation took ${generationTime}ms`);
-        if (!res.data?.[0].b64_json) {
+        if (!res.data?.[0]?.b64_json) {
           return {
             content: [
               {
