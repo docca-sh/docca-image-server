@@ -17,7 +17,8 @@
         "start": "tsx ./src/index.ts",
         "check-types": "tsc --noemit",
         "test": "vitest run",
-        "test:watch": "vitest"
+        "test:watch": "vitest",
+        "build": "tsc"
     },
     "keywords": [
         "mcp",
